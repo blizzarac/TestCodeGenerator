@@ -1,7 +1,7 @@
 package com.stolz.alexander.tcod;
 
 import com.stolz.alexander.tcod.testclasses.PrimitiveTypesClass;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 

@@ -12,7 +12,7 @@ public class ReflectionHelper<T> {
         HashSet<String> getterFound = new HashSet<>();
         HashSet<String> setterFound = new HashSet<>();
 
-        Arrays.asList(object.getClass().getDeclaredMethods()).stream().forEach(method -> {
+        Arrays.stream(object.getClass().getDeclaredMethods()).forEach(method -> {
             String methodName = method.getName();
             switch (methodName.substring(0, 3)) {
                 case "get":

@@ -1,12 +1,8 @@
 package com.stolz.alexander.tcod;
 
 import com.stolz.alexander.tcod.testclasses.PrimitiveTypesClass;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
